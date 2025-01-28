@@ -3,8 +3,8 @@
 int main() {
     char s[100];
     char x[100];
-    scanf("%s", s);
-    scanf("%s", x);
+    scanf("%s",&s);
+    scanf("%s",&x);
     printf("%s and %s",s,x );
     return 0;
 }
