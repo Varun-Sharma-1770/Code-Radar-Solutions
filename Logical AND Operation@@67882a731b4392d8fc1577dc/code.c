@@ -6,8 +6,7 @@ int main() {
     scanf("%d", &y);
     if(x > 0 && y > 0){
         print("True");
-    }
-    else{
+    }else{
         print("False");
     }
     return 0;
