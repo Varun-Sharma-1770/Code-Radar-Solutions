@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main() {
     int x y z;
-    scanf("%d %d %d", x, y, z);
+    scanf("%d",x);
+    scanf("%d",y);
+    scanf("%d",z);
     float a;
     a = (x+y+z)/3;
-    printf("%.2f", a);
+    printf("Average: %.2f", a);
     return 0;
 }
