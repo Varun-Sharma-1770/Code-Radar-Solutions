@@ -5,7 +5,7 @@ int main() {
     int x y z;
     scanf("%d %d %d", x, y, z);
     float a;
-    a = (x+y+z)/3
+    a = (x+y+z)/3;
     printf("%.2f", a);
     return 0;
 }
