@@ -4,10 +4,10 @@ int main(){
     scanf("%d", &x);
     int y;
     scanf("%d", &y);
-    if(x>y){
+    if(x<y){
         printf("Profit");
     }
-    else if(x<y){
+    else if(x>y){
         printf("Loss");
     }
     else{
