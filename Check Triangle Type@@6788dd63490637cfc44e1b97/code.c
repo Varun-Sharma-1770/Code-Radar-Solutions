@@ -6,7 +6,7 @@ int main(){
     scanf("%d", &y);
     int z;
     scanf("%d", &z);
-    if(x==y==z){
+    if(x==y && y==z && z==x){
         printf("Equilateral");
     }
     else if(x!=y && y!=z && z!=x){
