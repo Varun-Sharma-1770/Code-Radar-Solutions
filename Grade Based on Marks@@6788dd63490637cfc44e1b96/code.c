@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int x;
     scanf("%d", &x);
@@ -11,11 +11,11 @@ int main(){
     else if(70<=x<80){
         printf("C");
     }
-    else if(60<=x<70){
-        print("D");
+    elseif(60<=x<70){
+        printf("D");
     }
     else{
-        printf("F");
+        printf("f");
     }
     return 0;
 }
