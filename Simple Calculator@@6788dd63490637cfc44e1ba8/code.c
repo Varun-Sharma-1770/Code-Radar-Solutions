@@ -20,8 +20,13 @@ int main(){
         printf("%d", result);
     }
     else if(ch == '/'){
+        if(y==0){
+            printf("error");
+        }
+        else{
         result = x/y;
         printf("%d", result);
+        }
     }
     else{
         printf("error");
