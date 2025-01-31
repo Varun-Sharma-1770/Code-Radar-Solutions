@@ -9,19 +9,19 @@ int main(){
     int result;
     if(ch == '+'){
         result = x+y;
-        printf("%d", result);
+        printf("", result);
     }
     else if(ch == '-'){
         result = x-y;
-        printf("%d", result);
+        printf("", result);
     }
     else if(ch == '*'){
         result = x*y;
-        printf("%d", result);
+        printf("", result);
     }
     else if(ch == '/'){
         result = x/y;
-        printf("%d", result);
+        printf("", result);
     }
     else{
         printf("error");
