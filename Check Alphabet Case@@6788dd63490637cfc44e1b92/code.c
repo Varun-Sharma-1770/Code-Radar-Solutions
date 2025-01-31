@@ -8,5 +8,8 @@ int main(){
     else if('a'<=ch && ch<='z'){
         printf("Lowercase");
     }
+    else{
+        printf("Not an alphabet");
+    }
     return 0;
 }
