@@ -24,7 +24,7 @@ int main(){
         printf("%D", result);
     }
     else{
-        printf("error")
+        printf("error");
     }
     return 0;
 }
