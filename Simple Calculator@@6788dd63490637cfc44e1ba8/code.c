@@ -23,5 +23,8 @@ int main(){
         result = x/y;
         printf("%d", result);
     }
+    else{
+        printf("error");
+    }
     return 0;
 }
