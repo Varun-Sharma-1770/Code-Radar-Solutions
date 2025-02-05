@@ -2,11 +2,9 @@
 int main(){
     int x;
     scanf("%d", &x);
-    for(int i=0;i<=x;i++){
-        for(int j=0;j<=i-1;j++){
-            int num=j+1;
-            int sum = num +'A'-1;
-            printf("%d", sum);
+    for(int i=0;i<=x-1;i++){
+        for(int j=0;j<=i;j++){
+            printf("%d", j+1);
         }
         printf("\n");
     }
