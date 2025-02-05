@@ -6,7 +6,8 @@ int main(){
 	    char ch;
 		for(int col=0; col<row+1; col=col+1) {
 			int number = col+1;
-			ch = number + 'A' -1;
+			ch = number -1;
+            printf
         }
         printf("\n");
     }
