@@ -7,7 +7,7 @@ int main(){
 		for(int col=0; col<row+1; col=col+1) {
 			int number = col+1;
 			int z = number -1;
-            printf("%d", z)
+            printf("%d", z);
         }
         printf("\n");
     }
