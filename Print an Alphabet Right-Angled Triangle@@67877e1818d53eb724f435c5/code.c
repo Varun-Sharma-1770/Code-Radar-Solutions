@@ -1,16 +1,14 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int x;
     scanf("%d", &x);
-    
-    for (int i = 0; i < x; i++) {
-        for (int j = 0; j <= i; j++) { 
-            char ch = j + 'A'; 
-            printf("%c ", ch);
+    for(int i=0;i<=x;i++){
+        for(int j=0;j<=i-1;j++){
+            int sum = j+1;
+            char ch = sum+'A'-1;
+            printf("%c",ch);
         }
         printf("\n");
     }
-    
     return 0;
 }
