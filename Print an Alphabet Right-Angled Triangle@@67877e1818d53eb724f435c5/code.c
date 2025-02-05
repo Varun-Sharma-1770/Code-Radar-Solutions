@@ -6,7 +6,7 @@ int main(){
         for(int j=0;j<=i-1;j++){
             int sum = j+1;
             char ch = sum+'A'-1;
-            printf("%c",ch);
+            printf("%c ",ch);
         }
         printf("\n");
     }
