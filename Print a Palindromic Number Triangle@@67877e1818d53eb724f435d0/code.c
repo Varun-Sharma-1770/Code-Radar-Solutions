@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main(){
-    int x;
-    scanf("%d", &x);
-	for(int row=0; row<x; row=row+1) {
-		char ch;
-		for(int col=0; col<row+1; col=col+1) {
-			int number = col+1;
-			int z = number + 'A' -1;
-			printf("%d", z);
-		}
-		printf("\n");
-	}
-	return 0;
+    int N;
+    scanf("%d", &N);
+    for(int i=1;i<=N;i++){
+        for(int j=1;j<=N-i;j++){
+            printf(" ");
+        }
+        for(int j=1;j<=2*i-1;j++){
+            int z=j+1;
+            int sum = z-1 
+            printf("%d", sum);
+        }
+        printf("\n");
+    }
+    return 0;
 }
