@@ -14,8 +14,8 @@ int main(){
         for(int j=i;j<=2*i-1;j++){
             int n;
             n++;
-            char z=j-n;
-            printf("%c", z);
+            int z=j-n;
+            printf("%d", z);
         }
         printf("\n");
     }
