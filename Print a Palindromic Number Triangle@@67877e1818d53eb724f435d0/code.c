@@ -11,6 +11,12 @@ int main(){
             char sum = z+'1'-1;
             printf("%c", sum);
         }
+        for(int j=i;j<=2*i-1;j++){
+            int n;
+            n++;
+            char z=j-n;
+            printf("%c", z);
+        }
         printf("\n");
     }
     return 0;
