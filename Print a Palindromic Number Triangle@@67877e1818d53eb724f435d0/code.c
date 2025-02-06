@@ -12,7 +12,8 @@ int main(){
             printf("%c", sum);
         }
         for(int j=2*i-1;j>=i;j--){
-            printf("%d", j);
+            char sum = j-1
+            printf("%c", sum);
         }
         printf("\n");
     }
