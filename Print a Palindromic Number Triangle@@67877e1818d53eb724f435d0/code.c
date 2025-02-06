@@ -8,8 +8,7 @@ int main(){
         }
         for(int j=1;j<=i;j++){
             int z=j;
-            char sum = z+'1'-1;
-            printf("%c", sum);
+            printf("%d", z);
         }
         for(int j=2*i-1;j>=i;j--){
             printf("%d", j);
