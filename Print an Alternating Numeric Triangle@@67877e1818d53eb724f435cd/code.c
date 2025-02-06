@@ -1,12 +1,17 @@
-#include<stdio.h>
-int main(){
-    int x;
-    scanf("%d", &x);
-    for(int i=0;i<=x-1;i++){
-        for(int j=0;j<=i;j++){
-            printf("%d", (i+j)%2);
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    for (int i = 1; i <= N; i++) {
+        int start = i % 2;
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", start);
+            start = 1 - start;
         }
         printf("\n");
     }
+
     return 0;
 }
