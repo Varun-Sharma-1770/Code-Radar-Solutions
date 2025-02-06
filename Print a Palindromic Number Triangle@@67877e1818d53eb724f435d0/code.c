@@ -7,9 +7,12 @@ int main(){
             printf(" ");
         }
         for(int j=1;j<=i-1;j++){
-            int z=j+1;
+            int z=j;
             char sum = z+'1'-1;
             printf("%c", sum);
+        }
+        for(int j=i;j<=2*i;j++){
+            printf("%d", j);
         }
         printf("\n");
     }
