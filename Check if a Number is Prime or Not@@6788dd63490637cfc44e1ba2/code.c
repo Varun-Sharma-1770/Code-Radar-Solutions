@@ -4,10 +4,10 @@ int main(){
     scanf("%d", &x);
     for(int i=2;i<x;i++){
         if(x%i ==0){
-            printf("Not Prim");
+            printf("Not Prime");
             return 0;
         }
     }
-    printf("Prim");
+    printf("Prime");
     return 0;
 }
