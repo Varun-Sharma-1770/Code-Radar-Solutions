@@ -8,6 +8,6 @@ int main(){
             return 0;
         }
     }
-    printf("Prime");
+    printf("Prim");
     return 0;
 }
